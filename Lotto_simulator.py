@@ -44,7 +44,7 @@ def print_numbers(numbers):
 
     :param list numbers: list of numbers
     """
-    print(", ".join(str(number) for number in sorted(numbers)))
+    print(", ".join(str(number) for number in numbers))
 
 
 def lotto_simulator():
